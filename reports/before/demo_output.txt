@@ -1,0 +1,13 @@
+Dispensing label: Paracetamol 500mg
+Paracetamol stock: 170
+Amoxicillin expired? True
+Bill: 45.0
+Dosage (mg/day): 500
+Patient ID: b762c3a64eaa3c22b176c2d9341b0ff3
+Rx number: RX-537081
+Login: True
+===== Pharmacy Stock Report =====
+Paracetamol 500mg -> 170 units, Rs. 1.5 exp 2027-06-30
+Amoxicillin 250mg -> 40 units, Rs. 6.0 exp 2026-01-15
+Cetirizine 10mg -> -10 units, Rs. 2.0 exp 2027-03-31
+404 -> 25 units, Rs. 0.0 exp 2099-12-31

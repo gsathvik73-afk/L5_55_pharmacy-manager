@@ -1,0 +1,15 @@
+Paracetamol stock: 170
+Amoxicillin expired? True
+Bill: 15.0
+Dosage arithmetic (250 * 2): 500
+Patient ID: e07239b62cd1622784bfb31794fba04ab25cd08be34f655cdf253de92d0d6a9f
+Rx number: RX-6BEAC1A95C4C3D24817C0F4AD7055668
+Login with empty password: False
+Dispensing label: Paracetamol 500mg
+Expiring within 30 days: []
+===== Pharmacy Stock Report =====
+Paracetamol 500mg -> 170 units, Rs. 1.50, exp 2027-01-19
+Amoxicillin 250mg -> 40 units, Rs. 6.00, exp 2026-10-20
+WARNING: Rejected stock: Quantity must be an integer of at least 1.
+WARNING: Rejected stock: Medicine name must be a nonempty string.
+WARNING: Unknown medicine: 'Insulin'

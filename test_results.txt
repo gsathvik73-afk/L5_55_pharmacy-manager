@@ -1,0 +1,32 @@
+test_add_and_restock (test_pharmacy_manager.PharmacyTests.test_add_and_restock) ... ok
+test_arithmetic_rejects_code_and_invalid_results (test_pharmacy_manager.PharmacyTests.test_arithmetic_rejects_code_and_invalid_results) ... ok
+test_arithmetic_supports_original_demo_and_parentheses (test_pharmacy_manager.PharmacyTests.test_arithmetic_supports_original_demo_and_parentheses) ... ok
+test_audit_defaults_are_independent (test_pharmacy_manager.PharmacyTests.test_audit_defaults_are_independent) ... ok
+test_bad_audit_does_not_change_stock (test_pharmacy_manager.PharmacyTests.test_bad_audit_does_not_change_stock) ... ok
+test_bill_is_correct_and_does_not_dispense (test_pharmacy_manager.PharmacyTests.test_bill_is_correct_and_does_not_dispense) ... ok
+test_different_batch_is_not_merged (test_pharmacy_manager.PharmacyTests.test_different_batch_is_not_merged) ... ok
+test_dispense_reduces_stock (test_pharmacy_manager.PharmacyTests.test_dispense_reduces_stock) ... ok
+test_dispensing_all_removes_empty_stock (test_pharmacy_manager.PharmacyTests.test_dispensing_all_removes_empty_stock) ... ok
+test_duplicate_bill_lines_cannot_exceed_stock (test_pharmacy_manager.PharmacyTests.test_duplicate_bill_lines_cannot_exceed_stock) ... ok
+test_expired_stock_is_blocked (test_pharmacy_manager.PharmacyTests.test_expired_stock_is_blocked) ... ok
+test_expiry_boundary_is_inclusive (test_pharmacy_manager.PharmacyTests.test_expiry_boundary_is_inclusive) ... ok
+test_explicit_audit_is_extended (test_pharmacy_manager.PharmacyTests.test_explicit_audit_is_extended) ... ok
+test_failed_dispense_preserves_stock (test_pharmacy_manager.PharmacyTests.test_failed_dispense_preserves_stock) ... ok
+test_import_has_no_demo_side_effects (test_pharmacy_manager.PharmacyTests.test_import_has_no_demo_side_effects) ... ok
+test_invalid_expiry_window_is_rejected (test_pharmacy_manager.PharmacyTests.test_invalid_expiry_window_is_rejected) ... ok
+test_invalid_patient_fields_are_rejected (test_pharmacy_manager.PharmacyTests.test_invalid_patient_fields_are_rejected) ... ok
+test_invalid_stock_file_is_atomic (test_pharmacy_manager.PharmacyTests.test_invalid_stock_file_is_atomic) ... ok
+test_invalid_stock_inputs_are_rejected (test_pharmacy_manager.PharmacyTests.test_invalid_stock_inputs_are_rejected) ... ok
+test_json_round_trip (test_pharmacy_manager.PharmacyTests.test_json_round_trip) ... ok
+test_label_treats_shell_syntax_as_literal_text (test_pharmacy_manager.PharmacyTests.test_label_treats_shell_syntax_as_literal_text) ... ok
+test_login_checks_configured_credential (test_pharmacy_manager.PharmacyTests.test_login_checks_configured_credential) ... ok
+test_login_denies_missing_configuration (test_pharmacy_manager.PharmacyTests.test_login_denies_missing_configuration) ... ok
+test_missing_stock_file_does_not_clear_stock (test_pharmacy_manager.PharmacyTests.test_missing_stock_file_does_not_clear_stock) ... ok
+test_patient_ids_are_unambiguous (test_pharmacy_manager.PharmacyTests.test_patient_ids_are_unambiguous) ... ok
+test_prescription_reference_format (test_pharmacy_manager.PharmacyTests.test_prescription_reference_format) ... ok
+test_unknown_medicine_is_reported (test_pharmacy_manager.PharmacyTests.test_unknown_medicine_is_reported) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.131s
+
+OK

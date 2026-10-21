@@ -1,0 +1,32 @@
+{
+  "srn": "PES2UG24CS430",
+  "username": "gsathvik73-afk",
+  "run_time_ist": "2026-10-21T20:38:28.545917+05:30",
+  "source_sha256": "4d2863580c1480c5402cf66e61c52076b11881586ec232490e39e99e8a5a7bda",
+  "tools": [
+    {
+      "tool": "Pylint",
+      "command": "python -m pylint --persistent=n pharmacy_manager.py",
+      "exit_code": 0,
+      "stdout": "\n------------------------------------\nYour code has been rated at 10.00/10\n\n",
+      "stderr": "",
+      "report": "pylint_report.txt"
+    },
+    {
+      "tool": "Bandit",
+      "command": "python -m bandit -r pharmacy_manager.py",
+      "exit_code": 0,
+      "stdout": "Run started:2026-10-21 15:08:26.169633+00:00\n\nTest results:\n\tNo issues identified.\n\nCode scanned:\n\tTotal lines of code: 230\n\tTotal lines skipped (#nosec): 0\n\tTotal potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0\n\nRun metrics:\n\tTotal issues (by severity):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\n\tTotal issues (by confidence):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\nFiles skipped (0):\n",
+      "stderr": "[main]\tINFO\tprofile include tests: None\n[main]\tINFO\tprofile exclude tests: None\n[main]\tINFO\tcli include tests: None\n[main]\tINFO\tcli exclude tests: None\n[main]\tINFO\trunning on Python 3.11.9\n",
+      "report": "bandit_report.txt"
+    },
+    {
+      "tool": "Flake8",
+      "command": "python -m flake8 pharmacy_manager.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": "flake8_report.txt"
+    }
+  ]
+}

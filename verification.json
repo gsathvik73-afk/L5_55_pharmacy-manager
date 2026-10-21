@@ -1,0 +1,25 @@
+{
+  "source_sha256": "4d2863580c1480c5402cf66e61c52076b11881586ec232490e39e99e8a5a7bda",
+  "checks": {
+    "pylint_report.txt": {
+      "command": "python -m pylint --persistent=n pharmacy_manager.py",
+      "exit_code": 0
+    },
+    "bandit_report.txt": {
+      "command": "python -m bandit -r pharmacy_manager.py",
+      "exit_code": 0
+    },
+    "flake8_report.txt": {
+      "command": "python -m flake8 pharmacy_manager.py",
+      "exit_code": 0
+    },
+    "test_results.txt": {
+      "command": "python -m unittest -v test_pharmacy_manager",
+      "exit_code": 0
+    },
+    "demo_output.txt": {
+      "command": "python pharmacy_manager.py",
+      "exit_code": 0
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pylint_report.txt": {
+    "command": [
+      "-m",
+      "pylint",
+      "--persistent=n",
+      "pharmacy_manager.py"
+    ],
+    "exit_code": 28
+  },
+  "bandit_report.txt": {
+    "command": [
+      "-m",
+      "bandit",
+      "-r",
+      "pharmacy_manager.py"
+    ],
+    "exit_code": 1
+  },
+  "flake8_report.txt": {
+    "command": [
+      "-m",
+      "flake8",
+      "pharmacy_manager.py"
+    ],
+    "exit_code": 1
+  },
+  "demo_output.txt": {
+    "command": [
+      "pharmacy_manager.py"
+    ],
+    "exit_code": 0
+  }
+}
